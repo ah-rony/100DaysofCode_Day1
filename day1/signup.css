@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(242, 241, 241);
+}
+
+
+.main{
+   background: #fff;
+   width: 650px;
+   height: 400px; 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   align-items: flex-start;
+   border-radius: 10px;
+   font-family: sans-serif;
+   flex-direction: row;
+
+}
+
+
+
+.left{
+    background-image: url(../day1/img/bg-left.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box; 
+    padding: 1.5rem 0 0 1rem;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+.step-list{
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.step{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid aqua;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.step-content{
+    color: white;
+    text-transform: uppercase;
+}
+.step-content span{
+    display: block;
+    font-size: 12px;
+}
+.step-content strong{
+    display: block;
+    font-size: 16px;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 1rem 3rem 0 3rem;
+    gap: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}
+
+form button{
+    padding: 8px 16px;
+    background: rgb(0, 55, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid blue;
+
+}
+
+form .btn-position{
+    display: flex;
+    justify-content: flex-end;
+}
